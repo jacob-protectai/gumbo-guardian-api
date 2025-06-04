@@ -1,0 +1,48 @@
+# Guardian API Dependencies
+# Core web framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Rate limiting and Redis support
+Flask-Limiter==3.5.0
+redis==5.0.1
+
+# Monitoring and metrics
+prometheus-client==0.18.0
+
+# Production WSGI server
+gunicorn==21.2.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# HTTP client for health checks
+requests==2.31.0
+
+# JSON schema validation
+jsonschema==4.19.2
+
+# Structured logging
+structlog==23.2.0
+
+# Circuit breaker pattern
+pybreaker==0.5.1
+
+# Async support
+aiohttp==3.9.1
+aiofiles==23.2.1
+
+# Security
+cryptography==41.0.7
+PyJWT==2.8.0
+
+# Configuration management
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Testing dependencies (dev)
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+factory-boy==3.3.0
+fakeredis==2.20.1
